@@ -1,0 +1,131 @@
+/***************************************************************************/
+/*                          Style sheet                                    */
+/*                          author: Álvaro López                           */
+/*                          version: 1.0                                   */
+/*                          comments: class proyect 2023-34                */
+/***************************************************************************/
+
+@font-face {font-family: titulos;
+    src: url(../fonts/Arvo-Regular.ttf);}
+
+@font-face {font-family: textonormal;
+    src: url(../fonts/Lato-Regular.ttf);}
+
+
+
+/********************* fonts *******************************/
+
+body {font-family: textonormal}
+
+h1, h2, h3, h4, h5, h6 {font-family: titulos;}
+
+.ff-tit {font-family: titulos;}
+
+
+
+
+/********************* sizing *******************************/
+
+.w-30 {width: 30%;}
+.w-15 {width: 15%;}
+.w-90 {width: 30%;}
+.w-55 {width: 55%;}
+.w-50p {width: 50px;}
+.w-120p {width: 120px;}
+.w-480p {width: 400px;}
+.w-95 {width: 95%;}
+.mb-1p {margin-bottom: 1%;}
+.mb-2p {margin-bottom: 2%;}
+.mb-8 {margin-bottom: 8em;}
+.ms-20 {margin-left: 72% !important;}
+.mt-6 {margin-top: 20%;}
+.vh-90 {height: 90vh;}
+
+.fs-08em {font-size: 0.8em;}
+
+/********************* colors *******************************/
+
+/* #9fbad3
+#b7cbde
+#cfdde9 
+#e7eef4
+#ffffff*/
+
+.bg-darkblue {background-color: #00205B}
+.bg-rednorway {background-color: #BA0C2F;}
+.bg-pastel {background-color: #cfdde9;}
+.bg-lightblue {background-color: #e7eef4;}
+.bg-lightblue2 {background-color: #cfdde9 ;}
+.bg-lightblue3 {background-color: #9fbad3 ;}
+
+/********************* hero *******************************/
+
+#hero {background-image: url(../img/herofiordo.jpg);
+    background-size: cover;
+    background-position: center;}
+
+/* #00205B COLOR */
+
+.card:hover {box-shadow: 10px 10px 10px lightgray;}
+
+.carousel-caption {background-color: rgba(128, 128, 128, 0.506);}
+
+#trigger {cursor:pointer} ;
+
+#trigger:hover {opacity: 0.75;}
+
+/* social */
+
+footer .fa-facebook {background-color: #3B5998;}
+
+footer .fa-twitter {background-color: #55ACEE;}
+
+footer .fa-whatsapp {background-color: #25D366;}
+
+footer .fa-instagram {background-image: linear-gradient(to right,#920FFF,#FE116C);}
+
+footer .fa-github {background-color: black;
+    border: solid 1px #444;}
+
+footer .fa-youtube-play {background-color: #FD0000;}
+
+.zoom {
+
+    transition: transform .5s; /* Animation */
+
+  }
+  
+  .zoom:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+/* form */
+
+/* form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  .prueba {
+    width: 60%;
+    margin: 2%;
+    height: auto;
+    max-width: 1440px; 
+    background: transparent;
+    backdrop-filter: blur(17px);
+    border: 2px solid #c6c3c3;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 850px){
+    .prueba {width: 100%;} 
+    }
+  
+  @media only screen and (max-width: 1050px){
+    .prueba {width: 100%;} 
+    } */
+
+
