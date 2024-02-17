@@ -11,7 +11,7 @@
 <h2 id="introduccion">Introduction</h2>
 <p>Work done by: Álvaro López Guerrero</p>
 <p>Website proyect "from scratch" of 2st evaluation of "Lenguajes de Marcas"</p>
-<p>february 2024 </p>
+<p>February 2024 </p>
 <p>License  CC-BY</p>
 
 <h2 id="motivacion">Motivation</h2>
@@ -40,17 +40,17 @@ On it I have placed the title of the page and a Call of Action button styled fro
 
 <h3>Iconic Places</h3>
 <img src="./img_readme/iconic.png" alt="iconic places section image" style="width:50%">
-<p>In this section I have implemented a grid with 3 columns, where the content is in cards<br>
+<p>In this section I have implemented a grid with 3 columns, where the content is in cards.<br>
 Within the cards we can find an image of each places, a brief description of the place and a button with a link to more information from an external page.</p>
 
 <h3>Gallery</h3>
 <img src="./img_readme/gallery.png" alt="gallery section image" style="width:50%">
-This section is composed by a sutomatic slideshow gallery of pictures<br>
-The section are styled as carouesel from bootstrap.</p>
+This section is composed by automatic slideshow gallery of pictures.<br>
+The section are styled as carousel from bootstrap.</p>
 
 <h3>Contact</h3>
 <img src="./img_readme/contact.png" alt="contact section image" style="width:50%">
-<p>This section is composed by from of contact <br></p>
+<p>This section is composed by form of contact.</p>
 
 <h3>Footer</h3>
 <img src="./img_readme/footer.png" alt="footer section image" style="width:50%">
@@ -75,9 +75,3 @@ And finally below this I have placed the social networks of Visit Norway and min
 
 <h3>Videos</h3>
 <a href="https://www.youtube.com/embed/rJrVP43MZYI?si=WOnQVPKj8l079V2F" target="_blank"><img src="./img_readme/video.png" alt="video" style="width:50%"><a/>
-
-<--<h2 id="snippets">Code snippets</h2>
-<p>I have used the following:</p>
-<ul>
-
-</ul>-->
