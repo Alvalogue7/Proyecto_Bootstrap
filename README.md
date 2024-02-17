@@ -45,7 +45,7 @@ Within the cards we can find an image of each places, a brief description of the
 
 <h3>Gallery</h3>
 <img src="./img_readme/gallery.png" alt="gallery section image" style="width:50%">
-This section is composed by automatic slideshow gallery of pictures.<br>
+This section is composed by autoplaying slideshow gallery of pictures.<br>
 The section are styled as carousel from bootstrap.</p>
 
 <h3>Contact</h3>
@@ -75,3 +75,15 @@ And finally below this I have placed the social networks of Visit Norway and min
 
 <h3>Videos</h3>
 <a href="https://www.youtube.com/embed/rJrVP43MZYI?si=WOnQVPKj8l079V2F" target="_blank"><img src="./img_readme/video.png" alt="video" style="width:50%"><a/>
+
+<h3>Bootstrap Components</h3>
+<a href ="https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works"><p>NavBar from bootstrap</p></a>
+<p>Introduction: <a href ="https://getbootstrap.com/docs/5.3/components/accordion/#how-it-works">Accordion from bootstrap</a></p>
+<p>Introduction: <a href ="https://getbootstrap.com/docs/5.3/helpers/ratio/#about">Ratio (youtube video) from bootstrap</a></p>
+<p>Gallery: <a href ="https://getbootstrap.com/docs/5.3/components/carousel/#autoplaying-carousels">Autoplaying carousel from bootstrap</a></p>
+<p>Footer: <a href ="https://getbootstrap.com/docs/5.3/helpers/ratio/#about">Ratio (map) from bootstrap</a></p>
+
+<h3>Code Snippets</h3>
+<a href ="https://www.w3schools.com/howto/howto_css_zoom_hover.asp"><p>Zoom Hover from w3schools</p></a>
+<a href ="https://mdbootstrap.com/docs/standard/extended/hero/"><p>Hero section from mdbootstrap</p></a>
+
