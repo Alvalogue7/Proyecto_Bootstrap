@@ -40,17 +40,17 @@ On it I have placed the title of the page and a Call of Action button styled fro
 
 <h3>Iconic Places</h3>
 <img src="./img_readme/iconic.png" alt="iconic places section image" style="width:50%">
-<p>In this section I have implemented a grid with 3 columns, where the content is in cards<br>
+<p>In this section I have implemented a grid with 3 columns, where the content is in cards.<br>
 Within the cards we can find an image of each places, a brief description of the place and a button with a link to more information from an external page.</p>
 
 <h3>Gallery</h3>
 <img src="./img_readme/gallery.png" alt="gallery section image" style="width:50%">
-This section is composed by a sutomatic slideshow gallery of pictures<br>
-The section are styled as carouesel from bootstrap.</p>
+This section is composed by automatic slideshow gallery of pictures.<br>
+The section are styled as carousel from bootstrap.</p>
 
 <h3>Contact</h3>
 <img src="./img_readme/contact.png" alt="contact section image" style="width:50%">
-<p>This section is composed by from of contact <br></p>
+<p>This section is composed by form of contact.</p>
 
 <h3>Footer</h3>
 <img src="./img_readme/footer.png" alt="footer section image" style="width:50%">
