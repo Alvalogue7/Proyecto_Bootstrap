@@ -112,34 +112,3 @@ footer .fa-github {background-color: black;
 footer .fa-youtube-play {background-color: #FD0000;}
 
 .border-darkblue {border-color: #00205B!important;}
-
-/* form */
-
-/* form {
-    width: 60vw;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
-  }
-
-  .prueba {
-    width: 60%;
-    margin: 2%;
-    height: auto;
-    max-width: 1440px; 
-    background: transparent;
-    backdrop-filter: blur(17px);
-    border: 2px solid #c6c3c3;
-    border-radius: 10px;
-}
-
-@media only screen and (max-width: 850px){
-    .prueba {width: 100%;} 
-    }
-  
-  @media only screen and (max-width: 1050px){
-    .prueba {width: 100%;} 
-    } */
-
-
