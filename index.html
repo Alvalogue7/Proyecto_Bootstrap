@@ -46,7 +46,7 @@
         <header>
             <div id="hero" class="p-5 text-center">
                 <div class="mask">
-                    <div class="d-flex justify-content-center align-items-center vh-90">
+                    <div class="d-flex justify-content-center align-items-center vh-80">
                         <div class="text-white">
                             <h1 class="mb-3">The Norwegian Fjords</h1>
                             <h4 class="mb-3 fs-09em">Indescribable travel experiences in one of the world's most iconic destinations!</h4>
@@ -237,17 +237,17 @@
 
                     <div class="col-12 col-md-10 col-lg-8">
 
-                        <div class="prueba">
+                        <div class="container m-0 p-0">
 
-                            <form action="" method="post" class="border border-secondary p-2 rounded-3">
-                                <h1>Contacto:</h1>
+                            <form action="" method="post" class="border border-secondary p-4 rounded-3">
+                                <h1 class="text-center">Contact</h1>
                                 <div class="mb-3">
-                                    <label for="nombre" class="form-label">Name: </label>
+                                    <label for="nombre" class="form-label">First Name: </label>
                                     <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombreHelp">
                                     <div id="nombreHelp" class="form-text"></div>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="apellido" class="form-label">Apellido:</label>
+                                    <label for="apellido" class="form-label">Last Name:</label>
                                     <input type="text" class="form-control" id="apellido" name="apellido" aria-describedby="apellidoHelp">
                                     <div id="apellidoHelp" class="form-text"></div>
                                 </div>
@@ -257,38 +257,45 @@
                                     <div id="emailHelp" class="form-text"></div>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="provincia" class="form-label">Provincia</label>
-                                    <select class="form-select" aria-label="Default select example" id="provincia" name="provincia">
-                                        <option value="0">-- elige provincia</option>
-                                        <option value="29">Málaga</option>
-                                        <option value="18">Granada</option>
-                                        <option value="4">Almería</option>
+                                    <label for="place" class="form-label">Place to visit: </label>
+                                    <select class="form-select" aria-label="Default select example" id="place" name="place">
+                                        <option value="0">-- choose place</option>
+                                        <option value="29">Geirangerfjord</option>
+                                        <option value="18">Nærøyfjord</option>
+                                        <option value="4">Sognefjord</option>
+                                        <option value="29">Nordfjord</option>
+                                        <option value="18">Preikestolen</option>
+                                        <option value="4">Stavenger</option>
                                     </select>
                                 </div>
         
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="sexo" id="masculino" value="masculino">
-                                    <label class="form-check-label" for="masculino">
-                                    Masculino
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="sexo" id="femenino" value="femenino">
-                                    <label class="form-check-label" for="femenino">
-                                    Femenino
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="sexo" id="otro" value="otro">
-                                    <label class="form-check-label" for="otro">
-                                    Otro
-                                    </label>
-                                </div>
-                                <div class="my-5 form-check">
+                                <fieldset>
+                                    <label for="email" class="form-label">Site to visit: </label>
+                                
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="visit" id="fjords" value="fjords">
+                                        <label class="form-check-label" for="fjords">
+                                        Fjords
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="visit" id="town" value="town">
+                                        <label class="form-check-label" for="town">
+                                        Town
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="visit" id="other" value="other">
+                                        <label class="form-check-label" for="other">
+                                        Other
+                                        </label>
+                                    </div>
+                                </fieldset>
+                                <div class="my-4 form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"><a id="trigger" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-primary fw-bold text-decoration-none">Acepto los términos y condiciones</a></label>
+                                    <label class="form-check-label" for="exampleCheck1"><a id="trigger" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-primary fw-bold text-decoration-none">I accept the terms and conditions</a></label>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary mx-auto d-block">Submit</button>
                                 </form>
         
                         <!-- Modal -->
@@ -300,14 +307,51 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit natus et, architecto blanditiis voluptates cupiditate magnam aut officia. Ratione, eligendi consequatur aliquid beatae ex provident dolores corrupti alias molestias expedita!
-                                Rerum quis, fuga fugit exercitationem, consequatur harum suscipit consectetur nostrum explicabo tempore mollitia nihil debitis. Possimus molestias consequuntur saepe culpa qui sed esse natus iste asperiores tenetur consectetur, beatae quae.
-                                Accusantium numquam at placeat repellendus assumenda iusto vero distinctio autem obcaecati cupiditate. Molestias dolor, voluptatum quia soluta provident doloremque assumenda natus nulla aliquam ea quo. Sint rem perferendis consectetur aperiam!
-                                Dicta non nostrum, hic repellat sint nesciunt est? Iusto repellendus esse, harum iste nihil obcaecati reprehenderit vero a aliquid accusantium quam odit qui expedita debitis reiciendis impedit, hic consequuntur eligendi.
-                                Numquam error aut distinctio cumque quos officiis laborum eligendi rerum vero, dolore quia iure fugiat incidunt facilis laudantium laboriosam ad alias aspernatur rem ex. Consectetur aspernatur at voluptate sequi hic?
-                                Impedit doloribus magni voluptates illo quod quam illum, labore, laborum harum quia repellat nisi dolor ad eveniet ipsa. Aperiam natus, laboriosam vero culpa perspiciatis adipisci deserunt enim fuga quibusdam corporis.
-                                Aspernatur, commodi officiis error incidunt distinctio perspiciatis maxime sit obcaecati quidem iure pariatur eos maiores recusandae illo quisquam necessitatibus neque odit adipisci reiciendis a? Hic officia aspernatur sed nobis ipsa.
-                                Ducimus labore harum cumque eaque aperiam est quibusdam explicabo rem! Nisi in cupiditate, eaque facere nemo, dolor possimus obcaecati nostrum, quaerat nulla saepe at assumenda totam? Odit sint beatae rem!
+                                    <h5>Place</h5>
+                                    <p>The event takes place in Trondheim Spektrum. Accommodation and remaining programme will take place in Trondheim and Trøndelag Region.</p>
+                                    
+                                    <h5>Dates</h5>
+                                    <p>30th March - 2nd April 2020</p>
+                                    
+                                    <h5>Buyers</h5>
+                                    <p>The buyers must be existing or a potential buyers of Norwegian tourism products. Participants must have the authority to enter binding agreements. The language of the event is English. One may register up to 2 persons per company to the event. Innovation Norway has the authority to authorise more than 2 persons per company if the event isn't fully booked after the registration deadline.
+                                    Innovation Norway reserves itself the right to close the registration link in the case the event is fully booked before the registration deadline.</p>
+                                    
+                                    <h5>Registration fee</h5>
+                                    <p>A registration fee will be charged. The fee covers negotiations, accommodation, meals and all services according to the guidelines given in the official programme.
+                                    There will be an extra fee if the company participates with more than 2 participants.The fee may vary from market to market and information will be given by your local Innovation Norway representative.</p>
+                                    
+                                    <h5>Market Manual</h5>
+                                    <p>As a buyer, you are asked to complete a Market Manual Form, briefly describing your company's business operations and the products that you will be looking for at the workshop. A Market Manual is a digital handbook, and is an important tool for the participating suppliers.
+                                    
+                                    Innovation Norway will claim the right to use information sent in to the Market Manual for the planning of other activities hosted by Innovation Norway.</p>
+                                    
+                                    <h5>Product Manual</h5>
+                                    <p>Similarly, the Product Manual provides essential information about the suppliers' products and services. You will receive this information in a digital form before planning your negotiations.</p>
+                                    
+                                    <h5>Appointment system</h5>
+                                    <p>Business is based mainly on pre-booked appointments. Prior to the Workshop, buyers and suppliers indicate which companies they wish to meet and negotiate with.
+                                    
+                                    Both buyers and suppliers can request appointments in advance. An individual appointment schedule is set up for each participant, and we also encourage you to meet on a supplier's request.
+                                    
+                                    Negotiations are conducted at the suppliers' stands. Each appointment lasts for 15 minutes. We strongly request all buyers to participate in the appointment system and pre-book a minimum of 17 appointments. After the schedules have been sent out, you will have time to make new appointments and cancel irrelevant appointments until a few days before the workshop starts, by sending meeting requests /cancellation requests directly to the supplier you wish to meet. Upon arrival to Trondheim, on the 30th of March, you will receive your final and updated schedule in your welcome kit. This is the final and valid schedule that you will have to follow during the event.</p>
+
+                                    <h5>Hotels</h5>
+                                    <p>Innovation Norway will make reservations at various hotels in Trondheim You will be notified in due time at which hotel you have been booked. Innovation Norway will not cover the costs of accommodation if you stay in another hotel than the one attributed to you.</p>
+                                    
+                                    <h5>Invoice</h5>
+                                    <p>Innovation Norway headquarters in Oslo, Norway, will send you an invoice for the participation with Norwegian VAT of 25%. The fee may vary from market to market and information will be given by your local Innovation Norway representative.</p>
+                                    
+                                    <h5>Cancellation NTW</h5>
+                                    No fees will be refunded in case of cancellation after 1st of March 2020.</p>
+                                    
+                                    <h5>Pre and post tours</h5>
+                                    <p>Participation in pre and post tours for NTW 2019 is free of charge, apart from costs for domestic flights. See tour descriptions on web for price information which will published mid-December 2019.
+                                    The flight costs will be invoiced by Innovation Norway headquarters in Oslo, Norway, with Norwegian VAT of 25%.
+                                    Cancellation of pre and post tours after 1st March 2020 will be charged with a cancellation fee of NOK 1000.- excl. VAT.</p>
+                                    
+                                    <h5>Force majeure</h5>
+                                    <p>Circumstances outside the control of Innovation Norway, such as strikes, official and unofficial disruptions of work/labour disputes, fires, wars, natural catastrophes, deficient sub-supplies etc. entitles Innovation Norway to terminate the agreement without any obligation of compensation.</p>
                                 </div>
                                 <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Understood</button>
@@ -336,12 +380,12 @@
                 <div class="row g-5">
                     <div class="col-12 col-md-6 col-lg-6 p-3">
                         <h3 class="text-center mb-4">Useful Links</h3>
-                    <div class="container">
-                        <a href="#" class="text-decoration-none text-dark"><h6 class="p-2">Home</h6></a>
-                        <a href="#intro" class="text-decoration-none text-dark"><h6 class="p-2">Introduction</h6></a>
-                        <a href="#iconic" class="text-decoration-none text-dark"><h6 class="p-2">Iconic Places</h6></a>
-                        <a href="#gallery" class="text-decoration-none text-dark"><h6 class="p-2">Gallery</h6></a>
-                        <a href="#contact" class="text-decoration-none text-dark"><h6 class="p-2">Contact</h6></a>
+                    <div class="container w-50">
+                        <a href="#" class="text-decoration-none text-dark"><h6 class="p-3 text-center zoom2 border-start border-3 border-darkblue bg-lightblue">Home</h6></a>
+                        <a href="#intro" class="text-decoration-none text-dark"><h6 class="p-3 text-center zoom2 border-start border-3 border-darkblue bg-lightblue">Introduction</h6></a>
+                        <a href="#iconic" class="text-decoration-none text-dark"><h6 class="p-3 text-center zoom2 border-start border-3 border-darkblue bg-lightblue">Iconic Places</h6></a>
+                        <a href="#gallery" class="text-decoration-none text-dark"><h6 class="p-3 text-center zoom2 border-start border-3 border-darkblue bg-lightblue">Gallery</h6></a>
+                        <a href="#contact" class="text-decoration-none text-dark"><h6 class="p-3 text-center zoom2 border-start border-3 border-darkblue bg-lightblue">Contact</h6></a>
                     </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 p-3">
@@ -359,12 +403,12 @@
                         <h3 class="text-center mb-2">Social Media</h3>
                             <div class="text-center">
 
-                                <a href="https://whatsapp.com/?lang=es_LA" target="_blank" class="text-white"><i class="fa fa-whatsapp rounded-circle w-50p p-3 m-1" aria-hidden="true"></i></a>
-                                <a href="https://www.facebook.com/visitnorway/" target="_blank" class="text-white"><i class="fa fa-facebook rounded-circle w-50p p-3 m-1" aria-hidden="true"></i></a>
-                                <a href="https://twitter.com/visitnorway" target="_blank" class="text-white"><i class="fa fa-twitter rounded-circle w-50p p-3 m-1" aria-hidden="true"></i></a>
-                                <a href="https://www.instagram.com/visitnorway/?hl=es" target="_blank" class="text-white"><i class="fa fa-instagram rounded-circle w-50p p-3 m-1" aria-hidden="true"></i></a>
-                                <a href="https://github.com/Alvalogue7" target="_blank" class="text-white"><i class="fa fa-github rounded-circle w-50p p-3 m-1" aria-hidden="true"></i></a>
-                                <a href="https://www.youtube.com/@VisitNorway" target="_blank" class="text-white"><i class="fa fa-youtube-play rounded-circle w-50p p-3 m-1" aria-hidden="true"></i></a>
+                                <a href="https://whatsapp.com/?lang=es_LA" target="_blank" class="text-white"><i class="fa fa-whatsapp rounded-circle w-50p p-3 m-1 zoom2" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/visitnorway/" target="_blank" class="text-white"><i class="fa fa-facebook rounded-circle w-50p p-3 m-1 zoom2" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/visitnorway" target="_blank" class="text-white"><i class="fa fa-twitter rounded-circle w-50p p-3 m-1 zoom2" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/visitnorway/?hl=es" target="_blank" class="text-white"><i class="fa fa-instagram rounded-circle w-50p p-3 m-1 zoom2" aria-hidden="true"></i></a>
+                                <a href="https://github.com/Alvalogue7" target="_blank" class="text-white"><i class="fa fa-github rounded-circle w-50p p-3 m-1 zoom2" aria-hidden="true"></i></a>
+                                <a href="https://www.youtube.com/@VisitNorway" target="_blank" class="text-white"><i class="fa fa-youtube-play rounded-circle w-50p p-3 m-1 zoom2" aria-hidden="true"></i></a>
                             <p class="mt-3 mb-0 ff-tit fs-08em">Álvaro López Guerrero</p>
                             <p class="ff-tit fs-08em">ESTUDIANTE DESARROLLO DE APLICACIONES WEB</p>
 

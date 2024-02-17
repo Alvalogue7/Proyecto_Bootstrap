@@ -5,15 +5,16 @@
 /*                          comments: class proyect 2023-34                */
 /***************************************************************************/
 
+
+/*************************************************************************/
+/*                                 FONTS                                 */
+/*************************************************************************/
+
 @font-face {font-family: titulos;
-    src: url(../fonts/Arvo-Regular.ttf);}
+  src: url(../fonts/Arvo-Regular.ttf);}
 
 @font-face {font-family: textonormal;
-    src: url(../fonts/Lato-Regular.ttf);}
-
-
-
-/********************* fonts *******************************/
+  src: url(../fonts/Lato-Regular.ttf);}
 
 body {font-family: textonormal}
 
@@ -22,9 +23,9 @@ h1, h2, h3, h4, h5, h6 {font-family: titulos;}
 .ff-tit {font-family: titulos;}
 
 
-
-
-/********************* sizing *******************************/
+/*************************************************************************/
+/*                                SIZING                                 */
+/*************************************************************************/
 
 .w-30 {width: 30%;}
 .w-15 {width: 15%;}
@@ -40,43 +41,60 @@ h1, h2, h3, h4, h5, h6 {font-family: titulos;}
 .mb-8 {margin-bottom: 8em;}
 .ms-20 {margin-left: 72% !important;}
 .mt-6 {margin-top: 20%;}
-.vh-90 {height: 90vh;}
+.vh-80 {height: 80vh;}
 
 .fs-08em {font-size: 0.8em;}
 .fs-09em {font-size: 0.9em;}
 
-/********************* colors *******************************/
+/*************************************************************************/
+/*                                 COLORS                                */
+/*************************************************************************/
 
-/* #9fbad3
-#b7cbde
-#cfdde9 
-#e7eef4
-#ffffff*/
+/* MY PALETTE COLOR */
+/* #9fbad3 #b7cbde #cfdde9 #e7eef4 #ffffff*/
 
 .bg-darkblue {background-color: #00205B}
 .bg-rednorway {background-color: #BA0C2F;}
-.bg-pastel {background-color: #cfdde9;}
 .bg-lightblue {background-color: #e7eef4;}
 .bg-lightblue2 {background-color: #cfdde9 ;}
 .bg-lightblue3 {background-color: #9fbad3 ;}
 
-/********************* hero *******************************/
+/*************************************************************************/
+/*                              ANIMATIONS                                */
+/*************************************************************************/
+
+.zoom {transition: transform .5s;}
+.zoom:hover {transform: scale(1.05);}
+
+.zoom2 {transition: transform .5s;}
+.zoom2:hover {transform: scale(1.1);}
+
+/*************************************************************************/
+/*                                 HERO                                 */
+/*************************************************************************/
 
 #hero {background-image: url(../img/Nordfjord.jpg);
     background-size: cover;
     background-position: center;}
 
-/* #00205B COLOR */
+/*************************************************************************/
+/*                         ICONIC PLACES SECTION                         */
+/*************************************************************************/
 
 .card:hover {box-shadow: 10px 10px 10px lightgray;}
 
 .carousel-caption {background-color: rgba(128, 128, 128, 0.506);}
 
+/*************************************************************************/
+/*                           CONTACT SECTION                             */
+/*************************************************************************/
 #trigger {cursor:pointer} ;
 
 #trigger:hover {opacity: 0.75;}
 
-/* social */
+/*************************************************************************/
+/*                               FOOTER                                  */
+/*************************************************************************/
 
 footer .fa-facebook {background-color: #3B5998;}
 
@@ -91,15 +109,7 @@ footer .fa-github {background-color: black;
 
 footer .fa-youtube-play {background-color: #FD0000;}
 
-.zoom {
-
-    transition: transform .5s; /* Animation */
-
-  }
-  
-  .zoom:hover {
-    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+.border-darkblue {border-color: #00205B!important;}
 
 /* form */
 
