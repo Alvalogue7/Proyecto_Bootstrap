@@ -11,7 +11,7 @@
 <h2 id="introduccion">Introduction</h2>
 <p>Work done by: Álvaro López Guerrero</p>
 <p>Website proyect "from scratch" of 2st evaluation of "Lenguajes de Marcas"</p>
-<p>february 2024 </p>
+<p>February 2024 </p>
 <p>License  CC-BY</p>
 
 <h2 id="motivacion">Motivation</h2>
@@ -75,9 +75,3 @@ And finally below this I have placed the social networks of Visit Norway and min
 
 <h3>Videos</h3>
 <a href="https://www.youtube.com/embed/rJrVP43MZYI?si=WOnQVPKj8l079V2F" target="_blank"><img src="./img_readme/video.png" alt="video" style="width:50%"><a/>
-
-<--<h2 id="snippets">Code snippets</h2>
-<p>I have used the following:</p>
-<ul>
-
-</ul>-->
