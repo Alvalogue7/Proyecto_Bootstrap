@@ -29,58 +29,55 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./img_readme/Hero.png" alt="hero section image" style="width:50%">
+<img src="./img_readme/hero.png" alt="hero section image" style="width:50%">
 <p>The section is composed by a background image, being responsive.<br>
 On it I have placed the title of the page and a Call of Action button styled from bootstrap.
 </p>
 
 <h3>Introduction</h3>
-<img src="./img_readme/history.png" alt="history section image" style="width:50%">
+<img src="./img_readme/intro.png" alt="introduction section image" style="width:50%">
 <p>I have arranged in a grid of 2 columns, a brief introduction to the Norwegian Fjords with and accordion from bootstrap which contains more extra information, and accompanying this in the other column, I have placed a video about the definition of a fjord, from youtube.</p>
 
-<h3>Maps</h3>
-<img src="./img_readme/maps.png" alt="maps section image" style="width:50%">
-<p>In this section I have implemented a grid with 4 columns, where the content is in cards<br>
-Within the cards we can find an image of each map, a brief description of the map and a button with a link to more information from an external page.<br>
-For the button I have used a styling from uiverse.io.</p>
-
-<h3>Perks</h3>
-<img src="./img_readme/perks.png" alt="perks section image" style="width:50%">
-This section is composed of a 5-column grid, where the content is in reversible cards.<br>
-The cards are styled as follows a w3schools tutorial.</p>
+<h3>Iconic Places</h3>
+<img src="./img_readme/iconic.png" alt="iconic places section image" style="width:50%">
+<p>In this section I have implemented a grid with 3 columns, where the content is in cards<br>
+Within the cards we can find an image of each places, a brief description of the place and a button with a link to more information from an external page.</p>
 
 <h3>Gallery</h3>
-<img src="./img_readme/gallery.jpg" alt="gallery section image" style="width:50%">
-<p>This section is composed by a slideshow gallery of pictures <br></p>
+<img src="./img_readme/gallery.png" alt="gallery section image" style="width:50%">
+This section is composed by a sutomatic slideshow gallery of pictures<br>
+The section are styled as carouesel from bootstrap.</p>
+
+<h3>Contact</h3>
+<img src="./img_readme/contact.png" alt="contact section image" style="width:50%">
+<p>This section is composed by from of contact <br></p>
 
 <h3>Footer</h3>
 <img src="./img_readme/footer.png" alt="footer section image" style="width:50%">
-<p>The footer is composed of a grid of 2 columns where we find the credits and the official page of the game<br>
+<p>The footer is composed of a grid of 2 columns where we find the map with locate the place.<br>
 In the other column the links to text of the page itself.<br>
-And finally below this I have placed the social networks of Call of Duty and mine.</p>
+And finally below this I have placed the social networks of Visit Norway and mine.</p>
 
 <h2 id="estilo">Site style</h2>
 <h3>Color Palette</h3>
 <ul>
-  <li>#1B1B1B</li>  
-  <li>#2D1918</li>
-  <li>#BEBCBA</li>
-  <li>#F15E00</li>
-  <li>#444</li>
+  <li>#00205B</li>  
+  <li>#9fbad3</li>  
+  <li>#b7cbde</li>
+  <li>#cfdde9</li>
+  <li>#e7eef4</li>
+  <li>#ffffff</li>
 </ul>
 
 <h3>Fonts</h3>
-<p>For the titles: AgencyFB Black Regular.</p>
-<p>For the body text: Bayformance.</p>
+<p>For the titles: Arvo Regular.</p>
+<p>For the body text: Lato Regular.</p>
 
 <h3>Videos</h3>
-<a href="https://www.youtube.com/embed/pIPLIYQUfwQ?si=ONvKJGPRza6PbnOe" target="_blank"><img src="./img_readme/video.png" alt="video" style="width:50%"><a/>
+<a href="https://www.youtube.com/embed/rJrVP43MZYI?si=WOnQVPKj8l079V2F" target="_blank"><img src="./img_readme/video.png" alt="video" style="width:50%"><a/>
 
-<h2 id="snippets">Code snippets</h2>
+<--<h2 id="snippets">Code snippets</h2>
 <p>I have used the following:</p>
 <ul>
-  <li>Navigation bar: from <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">w3Schools</a> "How to" "Responsive Topnav" "</li>
-  <li>Buttons: from <a href="https://uiverse.io/all?search=button">uiverse.io.</a> </li>
-  <li>Flip Cards: from <a href="https://www.w3schools.com/howto/howto_css_flip_card.asp">w3Schools</a> "How to" "Flip Cards"</li>
-  <li>Gallery: from <a href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp">w3Schools</a> "How to" "SlideShow Gallery"</li>
-</ul>
+
+</ul>-->
