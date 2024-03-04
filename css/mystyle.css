@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {font-family: titulos;}
 .w-15 {width: 15%;}
 .w-90 {width: 30%;}
 .w-55 {width: 55%;}
+.w-85 {width: 85%;}
 .w-50p {width: 50px;}
 .w-120p {width: 120px;}
 .w-200p {width: 200px;}
@@ -59,6 +60,9 @@ h1, h2, h3, h4, h5, h6 {font-family: titulos;}
 .bg-lightblue2 {background-color: #cfdde9 ;}
 .bg-lightblue3 {background-color: #9fbad3 ;}
 
+.text-rednorway {color: #BA0C2F;
+  visibility: hidden;}
+
 /*************************************************************************/
 /*                              ANIMATIONS                                */
 /*************************************************************************/
@@ -68,6 +72,8 @@ h1, h2, h3, h4, h5, h6 {font-family: titulos;}
 
 .zoom2 {transition: transform .5s;}
 .zoom2:hover {transform: scale(1.1);}
+
+.darkblue-t:hover {color: #00205B;}
 
 /*************************************************************************/
 /*                                 HERO                                 */
